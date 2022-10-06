@@ -1,0 +1,249 @@
+* {
+
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+
+
+.logo {
+    max-width: 20vw;
+    margin-left: 100px;
+    margin-top: 10px;
+    display: block;
+
+}
+
+nav {
+    display: inline-block;
+    flex-wrap: wrap;
+
+    align-items: center;
+    margin-right: 100px;
+
+
+
+}
+
+
+.actives {
+    display: none;
+}
+
+.menu label {
+    display: inline-block;
+    width: 120%;
+
+    padding: 46px 10px;
+
+}
+
+.actives:checked~label {
+    background-color: #ff0077;
+    color: #fff;
+
+}
+
+label:hover {
+    color: #ff0077;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav>ul>li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    justify-content: space-between;
+
+    text-align: center;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 110px;
+
+    background: white;
+
+}
+
+
+header {
+
+    -webkit-box-shadow: 1px 1px 30px rgba(0, 0, 0, .4);
+
+    -moz-box-shadow: 1px 1px 30px rgba(0, 0, 0, .4);
+
+    -ms-box-shadow: 1px 1px 30px rgba(0, 0, 0, .4);
+
+    -o-box-shadow: 1px 1px 30px rgba(0, 0, 0, .4);
+
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, .4);
+}
+
+/*BANHO E TOSA*/
+.banhoetosa {
+    height: 400px;
+    display: flex;
+    margin-top: 110px;
+}
+
+.banhoimg {
+
+    width: 100%;
+}
+
+.banhotext {
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 16px;
+}
+
+/*CENTRO MEDICO*/
+.medicalcenter {
+
+    height: 400px;
+    display: flex;
+    background-color: #ff0077;
+
+}
+
+.medimg {
+    width: 100%;
+
+}
+
+.medicaltext {
+    color: #fff;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 16px;
+}
+
+
+/*FARMACIA*/
+.farma {
+
+    height: 400px;
+    display: flex;
+    background-color: #0077ff;
+}
+
+.farmaimg {
+    width: 100%;
+}
+
+.farmatext {
+    align-items: center;
+    color: #fff;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 16px;
+}
+
+/*TELE ENTREGA*/
+.tele {
+    height: 400px;
+    display: flex;
+    background-color: #FF320D;
+}
+
+.teleimg {
+    width: 100%;
+    margin-left: 200px;
+}
+
+.teletext {
+    color: #fff;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 16px;
+
+}
+
+/*TELE BUSCA*/
+.busca {
+    height: 400px;
+    display: flex;
+    background-color: #C10DFF;
+}
+
+.buscaimg {
+    width: 100%;
+}
+
+.buscatext {
+    align-items: center;
+    color: #fff;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 16px;
+}
+
+/*CRECHE*/
+.creche {
+    height: 400px;
+    display: flex;
+    background-color: #6cf515;
+}
+
+.crechetext {
+    align-items: center;
+    color: #fff;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 16px;
+}
+
+.crecheimg {
+    width: 100%;
+}
+
+/*HOTEL*/
+.hotel {
+    height: 400px;
+    display: flex;
+    background-color: #382c32;
+    ;
+}
+
+.hotelimg {
+    width: 100%;
+}
+
+.hoteltext {
+    align-items: center;
+    color: #fff;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 16px;
+}

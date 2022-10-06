@@ -1,0 +1,197 @@
+* {
+  
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+
+
+.logo {
+    max-width: 20vw;
+    margin-left: 100px;
+    margin-top: 10px;
+    display: block;
+
+}
+
+nav {
+    display: inline-block;
+    flex-wrap: wrap;
+
+    align-items: center;
+    margin-right: 100px;
+
+
+
+}
+
+
+.actives {
+    display: none;
+}
+
+.menu label {
+    display: inline-block;
+    width: 120%;
+
+    padding: 46px 10px;
+
+}
+
+.actives:checked~label {
+    background-color: #ff0077;
+    color: #fff;
+
+}
+
+label:hover {
+    color: #ff0077;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+nav>ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav>ul>li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    justify-content: space-between;
+
+    text-align: center;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 110px;
+
+    background: white;
+
+}
+
+
+header {
+
+    -webkit-box-shadow: 1px 1px 30px rgba(0, 0, 0, .4);
+
+    -moz-box-shadow: 1px 1px 30px rgba(0, 0, 0, .4);
+
+    -ms-box-shadow: 1px 1px 30px rgba(0, 0, 0, .4);
+
+    -o-box-shadow: 1px 1px 30px rgba(0, 0, 0, .4);
+
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, .4);
+}
+
+.banhoetosa {
+  display: flex;
+ margin-top: 110px;
+}
+
+.banhotext {
+    align-items: center;
+margin-top: 6%;
+margin-left: 4%;
+margin-right: 4%;
+font-size: 16px;
+}
+
+.medicalcenter {
+display: flex;
+background-color: #ff0077;
+
+}
+
+.medimg{
+    display: flex;
+   margin-left: 55%;
+}
+.medicaltext {
+    
+font-size: 16px;
+    color: #fff;
+    margin-top: 6%;
+margin-left: 4%;
+margin-right: 4%;
+font-size: 16px;
+}
+
+
+
+
+
+
+/*
+
+
+
+.medical {
+    position: relative;
+    float: right;
+    padding-top: 141px;
+}
+
+.medicalEspace {
+    position: absolute;
+    padding-bottom: 171px;
+    background-color: #ff0077;
+    color: #ffffff;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 50%;
+    height: 300px;
+    font-size: 16px;
+    margin-top: 141px;
+}
+
+.medicalText {
+    position: absolute;
+    bottom: 30%;
+}
+
+.farma {
+    position: absolute;
+    float: left;
+    padding-top: 539px;
+}
+
+.farmaEspace {
+
+    padding-bottom: 171px;
+    background-color: #0077ff;
+    color: #ffffff;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 50%;
+    height: 300px;
+    font-size: 16px;
+    margin-top: 500px;
+}
+
+.farmaText {
+
+    position: relative;
+    float: right;
+
+
+}*/

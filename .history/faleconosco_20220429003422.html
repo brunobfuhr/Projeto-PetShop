@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet&shop</title>
+
+    <script type="text/javascript" language="javascript" src="javascript/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/94a61b71fb.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="faleconoscostyles.css" title="text/css">
+
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <img class="logo" src="images/logo-colored.svg" alt="Logo">
+
+        <div>
+
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <input type="radio" name="tabs" class="actives" id="tab1">
+                        <label for="tab1">Home</label>
+                        <div class="content"></div>
+
+                    </li>
+
+                    <li>
+                        <input type="radio" name="tabs" class="actives" id="tab2">
+                        <label for="tab2">Sobre a empresa</label>
+                        <div class="content"></div>
+
+                    </li>
+
+                    <li>
+                        <input type="radio" name="tabs" class="actives" id="tab5">
+                        <label for="tab5">Serviços</label>
+                        <div class="content"></div>
+
+                    </li>
+
+                    <li>
+                        <input type="radio" name="tabs" class="actives" id="tab3">
+                        <label for="tab3">Fale conosco</label>
+                        <div class="content"></div>
+
+                    </li>
+
+
+
+                </ul>
+
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <section class="forms">
+
+        <div class="container" >
+            <h2>Fale Conosco</h2>
+            
+            <form>
+
+
+                <label for="name">Nome:</label>
+                <input class="form-item" type="text" id="name" name="name" placeholder="Nome">
+                <label for="e-mail">E-mail:</label>
+                <input class="form-item" type="email" id="email" name="email" placeholder="E-mail">
+                <label for="phone">Telefone:</label>
+                <input class="form-item" type="tel" id="phone" name="phone" placeholder="Telefone">
+                <label for="product">Cidade:</label>
+                <select class="form-item" id="product" name="product">
+                    <option value="0" selected="" disabled=""></option>
+                    <option value="1">Lajes</option>
+                    <option value="2">Artefatos de Concreto</option>
+                    <option value="3">Blocos Cerâmicos</option>
+                    <option value="4">Estruturas Pré-Moldadas</option><br>
+                </select>
+
+                <label for="attachments">Anexos</label>
+                <input class="form-item" type="file" id="attachments" name="attachments">
+
+                <label for="message">Mensagem:</label>
+                <textarea class="form-item" id="message" name="message" rows="5" cols="30"
+                    placeholder="Mensagem"></textarea>
+
+                <input class="form-item" type="submit" value="Enviar"></input>
+
+
+            </form>
+
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+</body>
+
+</html>

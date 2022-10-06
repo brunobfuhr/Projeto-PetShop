@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet&shop</title>
+
+    <script type="text/javascript" language="javascript" src="javascript/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/94a61b71fb.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="faleconoscostyles.css" title="text/css">
+
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <img class="logo" src="images/logo-colored.svg" alt="Logo">
+
+        <div>
+
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <input type="radio" name="tabs" class="actives" id="tab1">
+                        <label for="tab1">Home</label>
+                        <div class="content"></div>
+
+                    </li>
+
+                    <li>
+                        <input type="radio" name="tabs" class="actives" id="tab2">
+                        <label for="tab2">Sobre a empresa</label>
+                        <div class="content"></div>
+
+                    </li>
+
+                    <li>
+                        <input type="radio" name="tabs" class="actives" id="tab5">
+                        <label for="tab5">Serviços</label>
+                        <div class="content"></div>
+
+                    </li>
+
+                    <li>
+                        <input type="radio" name="tabs" class="actives" id="tab3">
+                        <label for="tab3">Fale conosco</label>
+                        <div class="content"></div>
+
+                    </li>
+
+
+
+                </ul>
+
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <section class="forms">
+
+        <div class="container">
+            <h2>Fale Conosco</h2>
+
+            <form>
+                <div>
+                    <label for="name">Nome:</label>
+                    <input class="form-item" type="text" id="name" name="name" placeholder="Nome">
+                </div>
+
+                <div>
+                    <label for="e-mail">E-mail:</label>
+                    <input class="form-item" type="email" id="email" name="email" placeholder="E-mail">
+                </div>
+
+                <div>
+                    <label for="phone">Telefone:</label>
+                    <input class="form-item" type="tel" id="phone" name="phone" placeholder="Telefone">
+                </div>
+
+                <div>
+                    <label for="product">Estado:</label>
+                    <select class="form-item" id="product" name="product">
+                        <option value="0" selected="" disabled=""></option>
+                        <option value="1">Rio Grande do Sul</option>
+                        <option value="2">São Paulo</option>
+                        <option value="3">Rio de Janeiro</option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <label for="product">Cidade:</label>
+                    <select class="form-item" id="product" name="product">
+
+
+
+                    </select>
+                </div>
+
+
+
+
+                <label for="attachments">Anexos</label>
+                <input class="form-item" type="file" id="attachments" name="attachments">
+
+                <label for="message">Mensagem:</label>
+                <textarea class="form-item" id="message" name="message" rows="5" cols="30"
+                    placeholder="Mensagem"></textarea>
+
+                <div>
+                    <input class="form-item-enviar" type="submit" value="Enviar">
+                </div>
+
+
+            </form>
+
+        </div>
+
+       
+
+    </section>
+
+  
+
+
+    <section id="contact">
+        <div class="container3">
+            <h5 style="color:gray">Horário de funcionamento</h5>
+            <h4 style="color:black">De Segunda a Sexta-feira das 9 às 19hs. <br>
+                Aos Sábados das 9 às 18hs.</h4>
+        </div>
+        <div>
+            <p style="color:grey">Telefone</p> <a style="color:#ff0077;"
+                href="tel:+550099999999">(00) 9999-9999</a>
+        </div>
+        <br>
+  
+        <div>
+            <p style="color:gray">E-mail</p> <a style="color:#ff0077;"
+                href="mailto:contato@olariaalegria.com.br"> contato@olariaalegria.com.br</a>
+        </div>
+        <br>
+
+        <address>
+            <p style="color:gray">Endereço</p>
+            <p style="color:#ff0077; font-size:15px;"> Olaria Alegria
+                Estrada sem nome, 1234
+                Bairro - Cidade - UF - <br> CEP: 12345-678<br />
+            </p>
+        </address>
+    </div>
+
+    <div class="maps">
+        <p style="color:gray">Localização</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6948.816571977919!2d-51.956540176574094!3d-29.44608588552025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951c618a53718fdf%3A0x70b8ec4ae586d3b8!2sUnivates!5e0!3m2!1spt-BR!2sbr!4v1651166869616!5m2!1spt-BR!2sbr"
+            width="420" height="210" " style=" border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+
+    </section>
+
+
+
+</body>
+
+</html>
